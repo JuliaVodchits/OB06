@@ -17,7 +17,7 @@ class Window:
         self.__caption = "Битва"
         self.__screen = pygame.display.set_mode((self.__window_width, self.__window_height))
         pygame.display.set_caption(self.__caption)
-        pygame.display.set_icon(pygame.image.load("img/warrior_with_peak.png"))
+        pygame.display.set_icon(pygame.image.load("img/warriors_with_peak_and_sword.png"))
 
     @property
     def window_width(self):
